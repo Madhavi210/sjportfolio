@@ -1,0 +1,72 @@
+[
+  {
+    "title": "JavaScript Promises: A Deep Dive",
+    "category": "JavaScript",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&q=80",
+    "url": "https://javascript-promises-a-deep-dive.hashnode.dev/",
+    "date": "Jun 01, 2025",
+    "readTime": "9 min",
+    "featured": true,
+    "trending": true
+  },
+  {
+    "title": "Understanding Type IA, IB & II Variations in EU",
+    "category": "EU Regulation",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "May 12, 2025",
+    "readTime": "5 min",
+    "featured": true,
+    "trending": true
+  },
+  {
+    "title": "Post Brexit: UK Regulatory Updates You Must Know",
+    "category": "MHRA",
+    "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "Apr 28, 2025",
+    "readTime": "7 min",
+    "featured": true,
+    "trending": false
+  },
+  {
+    "title": "SmPC vs PIL: Key Differences Explained",
+    "category": "Labelling",
+    "image": "https://images.unsplash.com/photo-1583912267550-aae0d2a8a1d3?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "Apr 15, 2025",
+    "readTime": "4 min",
+    "featured": true,
+    "trending": true
+  },
+  {
+    "title": "Best Practices for Artwork Management in EU/UK Markets",
+    "category": "Artwork",
+    "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "Apr 05, 2025",
+    "readTime": "6 min",
+    "featured": true,
+    "trending": false
+  },
+  {
+    "title": "CTD Module 3: Quality Documentation Deep Dive",
+    "category": "CMC",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "Mar 22, 2025",
+    "readTime": "8 min",
+    "featured": false,
+    "trending": true
+  },
+  {
+    "title": "Annual Reports & PSURs: A Practical Guide",
+    "category": "Compliance",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+    "url": "https://hashnode.com/",
+    "date": "Mar 10, 2025",
+    "readTime": "6 min",
+    "featured": false,
+    "trending": false
+  }
+]
