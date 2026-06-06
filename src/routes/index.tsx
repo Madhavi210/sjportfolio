@@ -149,12 +149,19 @@ function Hero() {
                   <FileText className="mr-1 h-4 w-4" /> View Resume
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="rounded-full border-primary/30 bg-card/40 backdrop-blur hover:bg-card/70">
+              <Button asChild variant="outline" size="lg"   className="rounded-full border-primary/30 bg-card/40 backdrop-blur
+                  text-primary hover:text-primary
+                  hover:bg-card/70 hover:border-primary
+                  transition-all duration-300">
                 <a href="/resume/resume.pdf" download>
                   <Download className="mr-1 h-4 w-4" /> Download Resume
                 </a>
               </Button>
-              <Button asChild variant="ghost" size="lg" className="rounded-full text-foreground hover:bg-card/50">
+              <Button asChild variant="ghost" size="lg" className="rounded-full
+                  text-primary
+                  hover:text-primary
+                  hover:bg-card/50
+                  transition-all duration-300">
                 <a href="#blogs">
                   <BookOpen className="mr-1 h-4 w-4" /> Read Blogs
                 </a>
@@ -255,7 +262,8 @@ function FeaturedBlogs() {
       eyebrow="Insights"
       title="Featured Articles"
       action={
-        <a href="#" className="hidden text-sm text-primary hover:underline md:inline-flex">View All Articles →</a>
+        <a></a>
+        // <a href="#" className="hidden text-sm text-primary hover:underline md:inline-flex">View All Articles →</a>
       }
     >
       <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center">

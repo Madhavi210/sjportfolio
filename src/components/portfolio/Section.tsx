@@ -5,7 +5,7 @@ export function Section({
   id, eyebrow, title, action, children,
 }: { id: string; eyebrow?: string; title?: string; action?: ReactNode; children: ReactNode }) {
   return (
-    <section id={id} className="scroll-mt-24 py-12 md:py-16">
+    <section id={id} className="scroll-mt-20 py-8 md:py-10">
       {(eyebrow || title || action) && (
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
