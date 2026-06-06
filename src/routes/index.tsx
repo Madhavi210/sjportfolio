@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -24,20 +23,9 @@ import experience from "@/data/experience.json";
 import skills from "@/data/skills.json";
 import certifications from "@/data/certifications.json";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Siddharth Jani — Regulatory Affairs Professional" },
-      { name: "description", content: "Premium portfolio & regulatory knowledge hub: EU/UK labelling, artwork management, CMC documentation and lifecycle management." },
-      { property: "og:title", content: "Siddharth Jani — Regulatory Affairs Professional" },
-      { property: "og:description", content: "EU/UK Labelling, Artwork Management, CMC Documentation & Lifecycle Management." },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: "/profile/profile.jpg" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
-  component: Index,
-});
+export default function HomePage() {
+  return <Index />;
+}
 
 const HUB = [
   { icon: ShieldCheck, title: "EU Regulations", desc: "Guidelines & Updates", color: "text-primary" },
