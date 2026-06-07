@@ -9,12 +9,12 @@ const profileImg = "/profile/profile.jpg";
 const NAV = [
   { id: "home", label: "Home", icon: Home },
   { id: "about", label: "About", icon: User },
-  { id: "experience", label: "Experience", icon: Briefcase },
-  { id: "knowledge", label: "Knowledge Hub", icon: BookOpen },
+  // { id: "experience", label: "Experience", icon: Briefcase },
+  // { id: "knowledge", label: "Knowledge Hub", icon: BookOpen },
   { id: "blogs", label: "Blogs", icon: Newspaper },
-  { id: "skills", label: "Skills", icon: Sparkles },
-  { id: "certifications", label: "Certifications", icon: Award },
-  { id: "resume", label: "Resume", icon: FileText },
+  // { id: "skills", label: "Skills", icon: Sparkles },
+  // { id: "certifications", label: "Certifications", icon: Award },
+  // { id: "resume", label: "Resume", icon: FileText },
   { id: "contact", label: "Contact", icon: Mail },
 ];
 
@@ -69,14 +69,13 @@ export function Sidebar() {
             { href: "https://www.linkedin.com/in/siddharth-jani-/", icon: Linkedin, label: "LinkedIn" },
             { href: "mailto:siddharth.jani.56@gmail.com", icon: Mail, label: "Email" },
             { href: "tel:+919512323133", icon: Phone, label: "Phone" },
-            { href: "/resume/resume.pdf", icon: Download, label: "Resume", download: true },
-          ].map(({ href, icon: Icon, label, download }) => (
+            // { href: "/resume/resume.pdf", icon: Download, label: "Resume", download: true },
+          ].map(({ href, icon: Icon, label }) => (
             <a
               key={label}
               href={href}
-              target={download ? undefined : "_blank"}
+              target="_blank"
               rel="noreferrer"
-              {...(download ? { download: true } : {})}
               aria-label={label}
               className="grid h-9 w-9 place-items-center rounded-full border border-border bg-card/60 text-primary transition-all hover:-translate-y-0.5 hover:glow-ring"
             >

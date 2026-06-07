@@ -71,13 +71,13 @@ function Index() {
       <main className="lg:pl-72">
         <div className="mx-auto max-w-6xl px-4 pb-16 pt-20 sm:px-6 lg:pt-8 lg:px-10">
           <Hero />
-          <ExperienceTimeline />
+          {/* <ExperienceTimeline /> */}
           <FeaturedBlogs />
-          <KnowledgeHub />
-          <Skills />
+          {/* <KnowledgeHub /> */}
+          {/* <Skills /> */}
           <Certifications />
-          <About />
-          <ResumeBlock />
+          {/* <About /> */}
+          {/* <ResumeBlock /> */}
           <Contact />
           <Footer />
         </div>
@@ -132,20 +132,20 @@ function Hero() {
               initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
               className="mt-7 flex flex-wrap gap-3"
             >
-              <Button asChild size="lg" className="rounded-full font-medium" style={{ background: "var(--gradient-primary)", color: "var(--primary-foreground)", boxShadow: "var(--shadow-glow)" }}>
+              {/* <Button asChild size="lg" className="rounded-full font-medium" style={{ background: "var(--gradient-primary)", color: "var(--primary-foreground)", boxShadow: "var(--shadow-glow)" }}>
                 <a href="/resume/resume.pdf" target="_blank" rel="noreferrer">
                   <FileText className="mr-1 h-4 w-4" /> View Resume
                 </a>
-              </Button>
-              <Button asChild variant="outline" size="lg"   className="rounded-full border-primary/30 bg-card/40 backdrop-blur
+              </Button> */}
+              {/* <Button asChild variant="outline" size="lg"   className="rounded-full border-primary/30 bg-card/40 backdrop-blur
                   text-primary hover:text-primary
                   hover:bg-card/70 hover:border-primary
                   transition-all duration-300">
                 <a href="/resume/resume.pdf" download>
                   <Download className="mr-1 h-4 w-4" /> Download Resume
                 </a>
-              </Button>
-              <Button asChild variant="ghost" size="lg" className="rounded-full
+              </Button> */}
+              <Button asChild variant="outline" size="lg" className="rounded-full
                   text-primary
                   hover:text-primary
                   hover:bg-card/50
@@ -475,8 +475,8 @@ function ResumeBlock() {
 function Contact() {
   return (
     <Section id="contact" eyebrow="Let's Connect" title="Contact">
-      <div className="grid gap-5 md:grid-cols-[1fr_1.2fr]">
-        <div className="space-y-3">
+      <div className="grid gap-5">
+        <div className="grid gap-4 md:grid-cols-2">
           {[
             { icon: Mail, label: "Email", value: "siddharth.jani.56@gmail.com", href: "mailto:siddharth.jani.56@gmail.com" },
             { icon: Phone, label: "Phone", value: "+91 9512323133", href: "tel:+919512323133" },
@@ -502,7 +502,7 @@ function Contact() {
           })}
         </div>
 
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
     </Section>
   );
